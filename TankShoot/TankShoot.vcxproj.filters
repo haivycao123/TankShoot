@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CoreEngine">
+      <UniqueIdentifier>{76e621b2-7af1-43f6-9748-5b072c146fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResourceManagement">
+      <UniqueIdentifier>{a8855e9a-1b4d-4c86-bb49-78fe674f9e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameOject">
+      <UniqueIdentifier>{a9801f18-cb3a-4809-9747-71bec23e2cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState">
+      <UniqueIdentifier>{f8d6535e-86b2-433b-87db-eead5a32982e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{c27fd02e-d337-47ed-9612-9c4dc19a5751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Configuration">
+      <UniqueIdentifier>{8061b832-e004-4750-aaec-5b53197705a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TankShoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\Application.cpp">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\GameStateBase.cpp">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\GameStateMachine.cpp">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagement\ResourceManager.cpp">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagement\SoundManager.cpp">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagement\UIManager.cpp">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\AirCraft.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ArmoredTank.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Enemy.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\MineTrap.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Plane.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Spawner.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TankEnemy.cpp">
+      <Filter>Source Files\GameOject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSAbout.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSEnd.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSIntro.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSMenu.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSPause.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSPlay.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GSSetting.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CollisionManager.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ExplosionEffect.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\GameButton.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\WindowConnector.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreEngine\Application.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\GameStateBase.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\GameStateMachine.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagement\ResourceManager.h">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagement\SoundManager.h">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagement\UIManager.h">
+      <Filter>Source Files\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\AirCraft.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ArmoredTank.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Enemy.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\MineTrap.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Plane.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Spawner.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TankEnemy.h">
+      <Filter>Source Files\GameOject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSAbout.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSEnd.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSIntro.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSMenu.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSPause.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSPlay.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GSSetting.h">
+      <Filter>Source Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CollisionManager.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ExplosionEffect.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\GameButton.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Singleton.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\WindowConnector.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\GameConfig.h">
+      <Filter>Source Files\Configuration</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
