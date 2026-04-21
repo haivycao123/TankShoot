@@ -2,7 +2,6 @@
 
 TankShoot is a 2D boss-fight shooter built with C++ and SFML. I developed this project as part of a team assignment, and this repository is my personal portfolio version of the project, highlighting the areas I contributed most heavily to, especially the gameplay foundation, combat flow, state management, and overall game structure.
 
-For CV and portfolio purposes, this project represents my ability to design and implement a complete desktop game in modern C++, work with real-time update loops, structure a multi-screen application, and deliver a playable product with graphics, audio, UI, collision handling, and boss mechanics.
 
 ## Project Summary
 
@@ -14,8 +13,6 @@ For CV and portfolio purposes, this project represents my ability to design and 
 - Resolution: `1280 x 720`
 
 ## My Role
-
-I am `Cao Hai Vy`, and I was the primary contributor to this project.
 
 Based on the implementation in this repository and the task allocation described in the original report, the areas I mainly drove include:
 
@@ -106,24 +103,6 @@ Key modules:
 - `ResourceManager`: texture and font loading
 - `SoundManager`: sound effect and music playback
 
-## Why I Include This In My CV
-
-This project is a strong representation of my hands-on software engineering skills in an interactive application context. It shows that I can:
-
-- Own a feature-heavy project beyond simple coursework exercises
-- Work across architecture, gameplay logic, UI, and asset integration
-- Build systems that interact cleanly instead of writing isolated code only
-- Ship a complete user-facing product with multiple screens and gameplay states
-
-It also reflects practical skills that transfer well to broader software roles:
-
-- modular design
-- debugging and iteration
-- event handling
-- state management
-- system integration
-- maintainable C++ code organization
-
 ## Build and Run
 
 ### Option 1: Run the existing build
@@ -168,7 +147,6 @@ This project was originally developed by team `Nine`:
 - Nguyen Cao Tri
 - Nguyen Son Truong
 
-For this personal repository, I present the project from my own contribution perspective, with emphasis on the systems and implementation areas I mainly owned.
 
 ## Core Files
 
